@@ -4,6 +4,7 @@ CookieClickerBot
 A click bot for Cookie Clicker.
 
 To inject:
+
 1.) Open the developer console in your favorite internet browser.
 2.) Copy/Paste:
 
