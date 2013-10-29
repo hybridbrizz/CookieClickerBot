@@ -1,3 +1,9 @@
+/*
+ * Cookie Clicker Bot
+ * Eric Versteeg
+ * 10/28/13
+ */
+
 var bigCookieClicker;
 var goldenCookieClicker;
 
@@ -29,7 +35,7 @@ function initGUI() {
 	clearInterval(GUIsetup);
 	
 	$("#CCBotContainer").append('<div id="CCBotTitleTab" sytle="position:absolute; right:0; top:0; bottom:0; width:30px">');
-	$("#CCBotTitleTab").append('<p style="-webkit-transform: rotate(-90deg); margin-top:-104px; margin-right:-63px; font-family:Helvetica; font-size:20pt;">CCBot</p>');
+	$("#CCBotTitleTab").append('<p style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); margin-top:-104px; margin-right:-63px; font-family:Helvetica; font-size:20pt;">CCBot</p>');
 }
 
 function startCCBot() {
@@ -51,5 +57,5 @@ function clickDaGoldenCookieIfExists() {
 }
 
 //var ccBot = document.createElement('script');
-//ccBot.src = "//versteege.me/cc_bot.js";
+//ccBot.src = "//github.com";
 //document.getElementsByTagName('head')[0].appendChild(ccBot);
