@@ -13,7 +13,7 @@ To inject:
 
 var ccBot = document.createElement('script');
 
-ccBot.src = "//github.com";
+ccBot.src = "https://raw.github.com/erversteeg/CookieClickerBot/master/cc_bot.js";
 
 document.getElementsByTagName('head')[0].appendChild(ccBot);
 
